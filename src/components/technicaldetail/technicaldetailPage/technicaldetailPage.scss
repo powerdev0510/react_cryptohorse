@@ -1,0 +1,389 @@
+
+
+
+
+.TechnicalPage-section {
+    margin-bottom: 6.4rem
+}
+.TechnicalPage-bg {
+    background-color: #f9f8f6;
+    background-image: url("static/image/pattern-tile.png");
+    background-size: 50rem auto;
+    padding: 6.4rem 0 3.2rem
+}
+.TechnicalPage-title {
+    margin-bottom: 3.2rem
+}
+.TechnicalPage-date {
+    margin-bottom: .8rem;
+    font-size: 1.6rem;
+    font-weight: 500
+}
+.TechnicalPage-highlight {
+    padding: .3rem;
+    border-radius: .3rem;
+    background-color: #c5eefa;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2a2825
+}
+.TechnicalPage-keyCardWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+.TechnicalPage-keyCard {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    padding: 2.4rem;
+    margin-bottom: 2.4rem;
+    border: .2rem solid #f3f1ee;
+    border-radius: .5rem;
+    background-color: #fff
+}
+.TechnicalPage-keyCard p {
+    margin-bottom: 0
+}
+@media (min-width: 480px) {
+    .TechnicalPage-keyCard {
+        -ms-flex-preferred-size: 48.67%;
+        flex-basis: 48.67%
+    }
+}
+.TechnicalPage-keyCard--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+.TechnicalPage-timeline {
+    position: relative
+}
+.TechnicalPage-timeline:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: .6rem;
+    margin: auto;
+    background-color: #e7e6e4;
+    z-index: 1
+}
+.TechnicalPage-timelineCard {
+    position: relative;
+    width: 100%;
+    max-width: 48rem;
+    margin: 0 auto 2.4rem;
+    padding: 2.4rem;
+    border: .2rem solid #f3f1ee;
+    border-radius: .5rem;
+    background-color: #fff;
+    z-index: 2
+}
+@media (min-width: 760px) {
+    .TechnicalPage-timelineCard {
+        width: 55%;
+        max-width: 55%
+    }
+}
+.TechnicalPage-timelineCard p {
+    margin-bottom: .8rem;
+    line-height: 1.4;
+    color: #575553
+}
+.TechnicalPage-timelineCard p:last-of-type {
+    margin-bottom: 0
+}
+.TechnicalPage-timelineCard h3 {
+    font-size: 2.4rem
+}
+.TechnicalPage-timelineCard--center {
+    text-align: center
+}
+@media (min-width: 760px) {
+    .TechnicalPage-timelineCard--left {
+        margin-left: 0;
+        margin-right: auto
+    }
+}
+@media (min-width: 760px) {
+    .TechnicalPage-timelineCard--right {
+        margin-left: auto;
+        margin-right: 0
+    }
+}
+.TechnicalPage-number {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 3.4rem;
+    width: 3.4rem;
+    margin-bottom: 2.4rem;
+    margin-right: 2.4rem;
+    padding-top: .2rem;
+    font-size: 2rem
+}
+.TechnicalPage-number,
+.TechnicalPage-year {
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-align: center;
+    border-radius: 50%
+}
+.TechnicalPage-year {
+    height: 5.4rem;
+    width: 5.4rem;
+    margin: 0 auto 2.4rem;
+    padding-top: 1.5rem;
+    font-size: 1.6rem;
+    z-index: 2
+}
+
+
+.SubpageNav {
+    padding: 3.2rem 2.4rem;
+    margin-bottom: 6.4rem;
+    background-color: #f9f8f6;
+    background-image: url("static/image/pattern-tile.png");
+    background-size: 50rem auto;
+    text-align: center;
+}
+
+.SubpageNav-btn--active, .SubpageNav-btn:hover {
+    background-color: #f9f8f6;
+    border-color: #e7e6e4;
+}
+
+.SubpageNav-btn--active, .SubpageNav-btn:hover {
+    background-color: #f9f8f6;
+    border-color: #e7e6e4;
+}
+
+.SubpageNav-btn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    margin: 0 .5rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: #fff;
+    border: .2rem solid #f3f1ee;
+    border-radius: .5rem;
+}
+
+.Button:focus,
+.Button:hover,
+a.Button:focus,
+a.Button:hover {
+    border: 2px solid #e7e6e4;
+    box-shadow: 0 .2rem 0 0 #e7e6e4;
+    -webkit-transform: translateY(-.2rem);
+    transform: translateY(-.2rem)
+}
+
+.Button:active,
+a.Button:active {
+    box-shadow: none;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.Button--full,
+a.Button--full {
+    width: 100%
+}
+
+.Button--wide,
+a.Button--wide {
+    padding: 0 3.2rem
+}
+
+.Button--large,
+a.Button--large {
+    height: 5.6rem
+}
+
+.Button--larger,
+a.Button--larger {
+    height: 6.2rem;
+    padding: 0 2.4rem;
+    font-size: 2rem
+}
+
+.Button--largest,
+a.Button--largest {
+    height: 7rem;
+    padding: 0 3.2rem;
+    font-size: 2.2rem
+}
+
+.Button--icon,
+a.Button--icon {
+    padding: 0 1.5rem 0 3.52rem
+}
+
+.Button--buy,
+.Button--love,
+a.Button--buy,
+a.Button--love {
+    --color-main: #e37ad3;
+    --color-shadow: #d850b1;
+    background-color: var(--color-main);
+    color: #fff;
+    font-weight: 500;
+    border: .2rem solid #0b0b0b;
+    box-shadow: inset 0 0 0 .3rem var(--color-shadow)
+}
+
+.Button--buy:focus,
+.Button--buy:hover,
+.Button--love:focus,
+.Button--love:hover,
+a.Button--buy:focus,
+a.Button--buy:hover,
+a.Button--love:focus,
+a.Button--love:hover {
+    border: .2rem solid #0b0b0b;
+    box-shadow: inset 0 0 0 .3rem var(--color-shadow), 0 .4rem 0 0 #e7e6e4;
+    -webkit-transform: translateY(-.2rem);
+    transform: translateY(-.2rem)
+}
+
+.Button--buy:active,
+.Button--love:active,
+a.Button--buy:active,
+a.Button--love:active {
+    box-shadow: inset 0 0 0 .3rem var(--color-shadow);
+    -webkit-transform: translateY(.2rem);
+    transform: translateY(.2rem)
+}
+
+.Button--cta,
+a.Button--cta {
+    box-shadow: inset 0 0 0 .4rem var(--color-shadow), 0 .4rem 0 0 #e7e6e4
+}
+
+.Button--cta:focus,
+.Button--cta:hover,
+a.Button--cta:focus,
+a.Button--cta:hover {
+    box-shadow: inset 0 0 0 .4rem var(--color-shadow), 0 .5rem 0 0 #e7e6e4;
+    -webkit-transform: translateY(-.2rem);
+    transform: translateY(-.2rem)
+}
+
+.Button--cta:active,
+a.Button--cta:active {
+    box-shadow: inset 0 0 0 .4rem var(--color-shadow);
+    -webkit-transform: translateY(.3rem);
+    transform: translateY(.3rem)
+}
+
+.Button--buy,
+a.Button--buy {
+    --color-main: #fba371;
+    --color-shadow: #ff844b
+}
+
+.Button-icon,
+a.Button-icon {
+    position: absolute;
+    top: 50%;
+    left: 1.2rem;
+    height: 1.6rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.Button-number,
+a.Button-number {
+    margin-left: .8rem;
+    color: #ff9b6a
+}
+
+.Button--disabled,
+.Button[disabled],
+a.Button--disabled,
+a.Button[disabled] {
+    opacity: .5;
+    color: #82817d;
+    pointer-events: none;
+    cursor: not-allowed
+}
+
+.Button--disabled:active,
+.Button--disabled:focus,
+.Button--disabled:hover,
+.Button[disabled]:active,
+.Button[disabled]:focus,
+.Button[disabled]:hover,
+a.Button--disabled:active,
+a.Button--disabled:focus,
+a.Button--disabled:hover,
+a.Button[disabled]:active,
+a.Button[disabled]:focus,
+a.Button[disabled]:hover {
+    box-shadow: none;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.Button--love.Button--disabled,
+.Button--love[disabled] {
+    color: #fff
+}
+
+
+.Container {
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    width: 100%;
+    max-width: 96rem
+    }
+    
+    @media (min-width:760px) {
+    .Container {
+        padding: 0 3.2rem
+    }
+    }
+    
+    .Container--sm {
+    max-width: 72rem
+    }
+    
+    .Container--lg {
+    max-width: 112rem
+    }
+    
+    .Container__full {
+    max-width: 100%
+    }
+    
+    .Container--center {
+    text-align: center
+    }
+    
+    @media (min-width:760px) {
+    .Container--half {
+        position: absolute;
+        max-width: 55%
+    }
+    }
+    
+    @media (min-width:960px) {
+    .Container--half {
+        max-width: 51%
+    }
+    }
+    
